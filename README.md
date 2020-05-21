@@ -4,11 +4,12 @@
 
 ### 1
 
-photo = 'QtWidgets.QGraphicsPixmapItem().setPixmap(QtGui.QPixmap('./test/img1.png'))'
+'photo = QtWidgets.QGraphicsPixmapItem().setPixmap(QtGui.QPixmap('./test/img1.png'))'
 
 或
 
 'photo = QtWidgets.QGraphicsPixmapItem((QtGui.QPixmap('./test/img1.png')))'
+
 ###2
 
 'scene = QtWidgets.QGraphicsScene(self).addItem(phone)'
