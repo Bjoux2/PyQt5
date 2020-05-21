@@ -10,6 +10,10 @@
 
 ' photo = QtWidgets.QGraphicsPixmapItem((QtGui.QPixmap('./test/img1.png'))) '
 
+或者
+
+' photo = QtWidgets.QGraphicsPixmapItem(QPixmap.fromImage(QtGui.QImage('./test/img1.png')))'
+
 ### 2
 
 ' scene = QtWidgets.QGraphicsScene(self).addItem(phone) '
@@ -18,4 +22,5 @@
 
 ' QtWidgets.QGraphicsView.setScene(scene) '
 
-顺序：QPixmap --> QGraphicsPixmapItem --> QGraphicsScene --> QGraphicsView
+顺序：(QImageQ -->) Pixmap --> QGraphicsPixmapItem --> QGraphicsScene --> QGraphicsView
+
